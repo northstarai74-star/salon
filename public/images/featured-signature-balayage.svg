@@ -1,0 +1,25 @@
+<svg width="1400" height="1750" viewBox="0 0 1400 1750" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Signature Balayage">
+  <defs>
+    <linearGradient id="g8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a4917d"/>
+      <stop offset="100%" stop-color="#e9ddcd"/>
+    </linearGradient>
+    <filter id="f8" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1750" fill="#e9ddcd"/>
+  <rect width="1400" height="1750" fill="url(#g8)"/>
+  <g filter="url(#f8)" opacity="0.35">
+    <circle cx="224" cy="315" r="224" fill="#7c6c5a"/>
+    <circle cx="1204" cy="1435" r="280" fill="#a4917d"/>
+    <circle cx="1092" cy="245.00000000000003" r="140" fill="#faf7f2" opacity="0.5"/>
+  </g>
+  <rect x="39.2" y="49" width="1321.6" height="1652" fill="none" stroke="#7c6c5a" stroke-opacity="0.55" stroke-width="1.5"/>
+  <g transform="translate(637, 708.5) scale(5.25)" fill="none" stroke="#7c6c5a" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 2.6 13.7 9.6 20.6 11.3 13.7 13 12 20 10.3 13 3.4 11.3 10.3 9.6Z"/>
+  </g>
+  <text x="700" y="885.8" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#211d1a" text-anchor="middle" letter-spacing="1.44">Signature Balayage</text>
+  <text x="70" y="1662.5" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#7c6c5a" letter-spacing="3.96" text-transform="uppercase">SIGNATURE EDIT</text>
+  <text x="1330" y="1662.5" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#7c6c5a" text-anchor="end" letter-spacing="3.96">1400×1750</text>
+</svg>

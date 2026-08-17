@@ -1,0 +1,25 @@
+<svg width="1400" height="1750" viewBox="0 0 1400 1750" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Luxury Hair Treatment">
+  <defs>
+    <linearGradient id="g10" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#322c27"/>
+      <stop offset="100%" stop-color="#c6a15b"/>
+    </linearGradient>
+    <filter id="f10" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="1750" fill="#c6a15b"/>
+  <rect width="1400" height="1750" fill="url(#g10)"/>
+  <g filter="url(#f10)" opacity="0.35">
+    <circle cx="224" cy="315" r="224" fill="#e6d3ae"/>
+    <circle cx="1204" cy="1435" r="280" fill="#322c27"/>
+    <circle cx="1092" cy="245.00000000000003" r="140" fill="#faf7f2" opacity="0.5"/>
+  </g>
+  <rect x="39.2" y="49" width="1321.6" height="1652" fill="none" stroke="#e6d3ae" stroke-opacity="0.55" stroke-width="1.5"/>
+  <g transform="translate(637, 708.5) scale(5.25)" fill="none" stroke="#e6d3ae" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 20c8-1 13-6 15-15C10 6 5 11 4 20Z"/><path d="M4 20c2-4.5 5.5-8 11.5-12"/>
+  </g>
+  <text x="700" y="885.8" font-family="Georgia, 'Times New Roman', serif" font-size="36" fill="#faf7f2" text-anchor="middle" letter-spacing="1.44">Luxury Hair Treatment</text>
+  <text x="70" y="1662.5" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#e6d3ae" letter-spacing="3.96" text-transform="uppercase">SIGNATURE EDIT</text>
+  <text x="1330" y="1662.5" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#e6d3ae" text-anchor="end" letter-spacing="3.96">1400×1750</text>
+</svg>

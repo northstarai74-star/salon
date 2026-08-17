@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Luxury salon palette — warm, restrained, editorial */
+  --color-ivory: #faf7f2;
+  --color-ivory-dim: #f3ede3;
+  --color-charcoal: #211d1a;
+  --color-charcoal-soft: #322c27;
+  --color-beige: #e9ddcd;
+  --color-taupe: #a4917d;
+  --color-taupe-dark: #7c6c5a;
+  --color-champagne: #c6a15b;
+  --color-champagne-soft: #e6d3ae;
+
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-jost);
+
+  --animate-fade-up: fade-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-fade-in: fade-in 1.1s ease forwards;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(28px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+:root {
+  --background: var(--color-ivory);
+  --foreground: var(--color-charcoal);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4,
+.font-serif-display {
+  font-family: var(--font-serif), serif;
+  letter-spacing: -0.01em;
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Elegant focus ring */
+:focus-visible {
+  outline: 2px solid var(--color-champagne);
+  outline-offset: 3px;
+}
+
+/* Thin scrollbar for filmstrip / carousel rows */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-taupe) transparent;
+}
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: var(--color-taupe);
+  border-radius: 999px;
+}
+
+/* Snap scroll gallery on mobile */
+.snap-x-mandatory {
+  scroll-snap-type: x mandatory;
+}
+.snap-start {
+  scroll-snap-align: start;
+}
+
+dialog#booking-dialog {
+  padding: 0;
+  border: none;
+  background: transparent;
+  max-width: none;
+  max-height: none;
+  width: 100%;
+  height: 100%;
+}
+dialog#booking-dialog::backdrop {
+  background: rgba(33, 29, 26, 0.72);
+  backdrop-filter: blur(2px);
+}

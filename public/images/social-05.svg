@@ -1,0 +1,25 @@
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="@lumiere.studio">
+  <defs>
+    <linearGradient id="g48" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e9ddcd"/>
+      <stop offset="100%" stop-color="#e6d3ae"/>
+    </linearGradient>
+    <filter id="f48" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="45"/>
+    </filter>
+  </defs>
+  <rect width="900" height="900" fill="#e6d3ae"/>
+  <rect width="900" height="900" fill="url(#g48)"/>
+  <g filter="url(#f48)" opacity="0.35">
+    <circle cx="144" cy="162" r="144" fill="#7c6c5a"/>
+    <circle cx="774" cy="738" r="180" fill="#e9ddcd"/>
+    <circle cx="702" cy="126.00000000000001" r="90" fill="#faf7f2" opacity="0.5"/>
+  </g>
+  <rect x="25.2" y="25.2" width="849.5999999999999" height="849.5999999999999" fill="none" stroke="#7c6c5a" stroke-opacity="0.55" stroke-width="1.5"/>
+  <g transform="translate(409.5, 343.05) scale(3.375)" fill="none" stroke="#7c6c5a" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="4" y="4" width="16" height="16" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="16.3" cy="7.7" r="0.7" fill="currentColor" stroke="none"/>
+  </g>
+  <text x="450" y="456.9" font-family="Georgia, 'Times New Roman', serif" font-size="23" fill="#211d1a" text-anchor="middle" letter-spacing="0.92">@lumiere.studio</text>
+  <text x="45" y="855" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#7c6c5a" letter-spacing="2.64" text-transform="uppercase">INSTAGRAM</text>
+  <text x="855" y="855" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#7c6c5a" text-anchor="end" letter-spacing="2.64">900×900</text>
+</svg>

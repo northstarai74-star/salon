@@ -1,0 +1,25 @@
+<svg width="1800" height="1150" viewBox="0 0 1800 1150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Reception &amp; Lounge">
+  <defs>
+    <linearGradient id="g41" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#322c27"/>
+      <stop offset="100%" stop-color="#c6a15b"/>
+    </linearGradient>
+    <filter id="f41" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="90"/>
+    </filter>
+  </defs>
+  <rect width="1800" height="1150" fill="#c6a15b"/>
+  <rect width="1800" height="1150" fill="url(#g41)"/>
+  <g filter="url(#f41)" opacity="0.35">
+    <circle cx="288" cy="207" r="288" fill="#e6d3ae"/>
+    <circle cx="1548" cy="943" r="360" fill="#322c27"/>
+    <circle cx="1404" cy="161.00000000000003" r="180" fill="#faf7f2" opacity="0.5"/>
+  </g>
+  <rect x="50.4" y="32.2" width="1699.1999999999998" height="1085.6" fill="none" stroke="#e6d3ae" stroke-opacity="0.55" stroke-width="1.5"/>
+  <g transform="translate(848, 427.19999999999993) scale(4.333333333333333)" fill="none" stroke="#e6d3ae" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="9.2" r="6.1"/><line x1="12" y1="15.3" x2="12" y2="21"/><line x1="8" y1="21" x2="16" y2="21"/>
+  </g>
+  <text x="900" y="589.0999999999999" font-family="Georgia, 'Times New Roman', serif" font-size="47" fill="#faf7f2" text-anchor="middle" letter-spacing="1.8800000000000001">Reception &amp; Lounge</text>
+  <text x="90" y="1092.5" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#e6d3ae" letter-spacing="5.06" text-transform="uppercase">THE STUDIO</text>
+  <text x="1710" y="1092.5" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#e6d3ae" text-anchor="end" letter-spacing="5.06">1800×1150</text>
+</svg>

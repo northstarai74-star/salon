@@ -1,0 +1,25 @@
+<svg width="1000" height="1300" viewBox="0 0 1000 1300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bridal 04">
+  <defs>
+    <linearGradient id="g27" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#211d1a"/>
+      <stop offset="100%" stop-color="#7c6c5a"/>
+    </linearGradient>
+    <filter id="f27" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="50"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="1300" fill="#7c6c5a"/>
+  <rect width="1000" height="1300" fill="url(#g27)"/>
+  <g filter="url(#f27)" opacity="0.35">
+    <circle cx="160" cy="234" r="160" fill="#e6d3ae"/>
+    <circle cx="860" cy="1066" r="200" fill="#211d1a"/>
+    <circle cx="780" cy="182.00000000000003" r="100" fill="#faf7f2" opacity="0.5"/>
+  </g>
+  <rect x="28" y="36.4" width="944" height="1227.2" fill="none" stroke="#e6d3ae" stroke-opacity="0.55" stroke-width="1.5"/>
+  <g transform="translate(455, 530.9) scale(3.75)" fill="none" stroke="#e6d3ae" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 19.8C4.6 14.2 2.4 9.6 6 6.4c2.4-2.1 5-0.6 6 1.7 1-2.3 3.6-3.8 6-1.7 3.6 3.2 1.4 7.8-6 13.4Z"/>
+  </g>
+  <text x="500" y="657.8" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#faf7f2" text-anchor="middle" letter-spacing="1.04">Bridal 04</text>
+  <text x="50" y="1235" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#e6d3ae" letter-spacing="2.86" text-transform="uppercase">OUR WORK</text>
+  <text x="950" y="1235" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#e6d3ae" text-anchor="end" letter-spacing="2.86">1000×1300</text>
+</svg>
