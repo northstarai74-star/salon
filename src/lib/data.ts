@@ -87,7 +87,7 @@ export const featuredServices: FeaturedService[] = [
       "A hand-painted lightening technique layered in freehand strokes for dimension that looks sun-kissed, not striped. Every application is custom-mapped to your natural base, cut, and undertone by our master colourists.",
     priceFrom: 180,
     duration: "2–3 hrs",
-    image: "/images/gallery-work-01.jpg",
+    image: "/images/luxe-styling-station.jpg",
     align: "left",
   },
   {
@@ -99,7 +99,7 @@ export const featuredServices: FeaturedService[] = [
       "Cut dry-first and refined wet, our precision method is built around how your hair actually falls and moves — not a one-size template. It's the difference between a haircut that photographs well and one that lives well.",
     priceFrom: 85,
     duration: "45–60 min",
-    image: "/images/gallery-work-02.jpg",
+    image: "/images/luxe-salon-interior.jpg",
     align: "right",
   },
   {
@@ -111,7 +111,7 @@ export const featuredServices: FeaturedService[] = [
       "A bond-level repair ritual using professional-grade actives to rebuild strength strand by strand, leaving hair visibly smoother, glossier, and easier to style at home.",
     priceFrom: 95,
     duration: "45 min",
-    image: "/images/gallery-work-03.jpg",
+    image: "/images/luxe-reception.jpg",
     align: "left",
   },
   {
@@ -123,7 +123,7 @@ export const featuredServices: FeaturedService[] = [
       "From trial to 'I do', our bridal specialists design a look that holds through every embrace, every dance, and every photograph — with a private in-studio experience for you and your party.",
     priceFrom: 250,
     duration: "2 hrs",
-    image: "/images/gallery-work-04.jpg",
+    image: "/images/luxe-featured.jpg",
     align: "right",
   },
 ];
@@ -194,7 +194,7 @@ export const stylists: Stylist[] = [
     position: "Creative Director & Colour Specialist",
     specialties: ["Balayage", "Vivid Colour", "Colour Correction"],
     bio: "Aria leads our colour studio with 14 years of experience across New York and Paris ateliers. Her freehand balayage work has become the studio's signature.",
-    image: "/images/stylist-01.jpg",
+    image: "/images/luxe-styling-station.jpg",
   },
   {
     id: "st-marcus",
@@ -203,7 +203,7 @@ export const stylists: Stylist[] = [
     position: "Senior Stylist",
     specialties: ["Precision Cutting", "Men's Grooming", "Texture"],
     bio: "Marcus trained at London's leading cutting academies and brings an architectural approach to every haircut, prioritising shape that grows out beautifully.",
-    image: "/images/stylist-02.jpg",
+    image: "/images/luxe-salon-interior.jpg",
   },
   {
     id: "st-sofia",
@@ -212,7 +212,7 @@ export const stylists: Stylist[] = [
     position: "Master Colourist",
     specialties: ["Balayage", "Highlights", "Blonding"],
     bio: "Sofia specialises in delicate, high-lift blonding and lived-in highlights, with a keen eye for tone that flatters every skin undertone.",
-    image: "/images/stylist-03.jpg",
+    image: "/images/luxe-reception.jpg",
   },
   {
     id: "st-elena",
@@ -221,7 +221,7 @@ export const stylists: Stylist[] = [
     position: "Bridal & Occasion Specialist",
     specialties: ["Updos", "Bridal Styling", "Extensions"],
     bio: "Elena has styled over 400 weddings and formal events, known for styles that hold flawlessly from ceremony through the last dance.",
-    image: "/images/stylist-04.jpg",
+    image: "/images/luxe-featured.jpg",
   },
   {
     id: "st-noah",
@@ -230,7 +230,7 @@ export const stylists: Stylist[] = [
     position: "Senior Stylist",
     specialties: ["Modern Cuts", "Curly Hair", "Styling"],
     bio: "Noah is our resident curl expert, dedicated to cutting and styling textured hair in ways that celebrate its natural pattern.",
-    image: "/images/stylist-01.jpg",
+    image: "/images/luxe-styling-station.jpg",
   },
 ];
 
