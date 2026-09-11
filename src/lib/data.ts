@@ -87,7 +87,7 @@ export const featuredServices: FeaturedService[] = [
       "A hand-painted lightening technique layered in freehand strokes for dimension that looks sun-kissed, not striped. Every application is custom-mapped to your natural base, cut, and undertone by our master colourists.",
     priceFrom: 180,
     duration: "2–3 hrs",
-    image: "/images/featured-signature-balayage.svg",
+    image: "/images/gallery-work-01.jpg",
     align: "left",
   },
   {
@@ -99,7 +99,7 @@ export const featuredServices: FeaturedService[] = [
       "Cut dry-first and refined wet, our precision method is built around how your hair actually falls and moves — not a one-size template. It's the difference between a haircut that photographs well and one that lives well.",
     priceFrom: 85,
     duration: "45–60 min",
-    image: "/images/featured-precision-haircut.svg",
+    image: "/images/gallery-work-02.jpg",
     align: "right",
   },
   {
@@ -111,7 +111,7 @@ export const featuredServices: FeaturedService[] = [
       "A bond-level repair ritual using professional-grade actives to rebuild strength strand by strand, leaving hair visibly smoother, glossier, and easier to style at home.",
     priceFrom: 95,
     duration: "45 min",
-    image: "/images/featured-luxury-treatment.svg",
+    image: "/images/gallery-work-03.jpg",
     align: "left",
   },
   {
@@ -123,28 +123,28 @@ export const featuredServices: FeaturedService[] = [
       "From trial to 'I do', our bridal specialists design a look that holds through every embrace, every dance, and every photograph — with a private in-studio experience for you and your party.",
     priceFrom: 250,
     duration: "2 hrs",
-    image: "/images/featured-bridal-styling.svg",
+    image: "/images/gallery-work-04.jpg",
     align: "right",
   },
 ];
 
 export const galleryItems: GalleryItem[] = [
-  { id: "g-haircut-1", category: "haircuts", title: "Textured Crop", image: "/images/gallery-haircut-01.svg", alt: "Textured crop haircut finished with soft movement", tall: true },
-  { id: "g-haircut-2", category: "haircuts", title: "Blunt Bob", image: "/images/gallery-haircut-02.svg", alt: "Precision blunt bob with sharp, clean lines" },
-  { id: "g-haircut-3", category: "haircuts", title: "Long Layers", image: "/images/gallery-haircut-03.svg", alt: "Long layered haircut with face-framing pieces", tall: true },
-  { id: "g-haircut-4", category: "haircuts", title: "Modern Shag", image: "/images/gallery-haircut-04.svg", alt: "Modern shag haircut with textured ends" },
-  { id: "g-colour-1", category: "colour", title: "Sun-Kissed Balayage", image: "/images/gallery-colour-01.svg", alt: "Sun-kissed balayage colour transformation", tall: true },
-  { id: "g-colour-2", category: "colour", title: "Rich Copper", image: "/images/gallery-colour-02.svg", alt: "Rich copper single-process colour" },
-  { id: "g-colour-3", category: "colour", title: "Dimensional Blonde", image: "/images/gallery-colour-03.svg", alt: "Dimensional blonde highlights" },
-  { id: "g-colour-4", category: "colour", title: "Espresso Brunette", image: "/images/gallery-colour-04.svg", alt: "Deep espresso brunette gloss colour", tall: true },
-  { id: "g-styling-1", category: "styling", title: "Editorial Waves", image: "/images/gallery-styling-01.svg", alt: "Editorial soft waves styling" },
-  { id: "g-styling-2", category: "styling", title: "Sleek Blow-Dry", image: "/images/gallery-styling-02.svg", alt: "Sleek, glossy blow-dry finish", tall: true },
-  { id: "g-styling-3", category: "styling", title: "Voluminous Curls", image: "/images/gallery-styling-03.svg", alt: "Voluminous curls styled for an event" },
-  { id: "g-styling-4", category: "styling", title: "Half-Up Elegance", image: "/images/gallery-styling-04.svg", alt: "Elegant half-up styled look" },
-  { id: "g-bridal-1", category: "bridal", title: "Romantic Bridal Updo", image: "/images/gallery-bridal-01.svg", alt: "Romantic bridal updo with soft tendrils", tall: true },
-  { id: "g-bridal-2", category: "bridal", title: "Bridal Party Styling", image: "/images/gallery-bridal-02.svg", alt: "Coordinated bridal party styling" },
-  { id: "g-bridal-3", category: "bridal", title: "Classic Bridal Waves", image: "/images/gallery-bridal-03.svg", alt: "Classic Hollywood-inspired bridal waves", tall: true },
-  { id: "g-bridal-4", category: "bridal", title: "Floral Bridal Braid", image: "/images/gallery-bridal-04.svg", alt: "Bridal braid finished with fresh florals" },
+  { id: "g-haircut-1", category: "haircuts", title: "Work Sample 1", image: "/images/gallery-work-01.jpg", alt: "Professional hair work sample", tall: true },
+  { id: "g-haircut-2", category: "haircuts", title: "Work Sample 2", image: "/images/gallery-work-02.jpg", alt: "Professional hair work sample" },
+  { id: "g-haircut-3", category: "haircuts", title: "Work Sample 3", image: "/images/gallery-work-03.jpg", alt: "Professional hair work sample", tall: true },
+  { id: "g-haircut-4", category: "haircuts", title: "Work Sample 4", image: "/images/gallery-work-04.jpg", alt: "Professional hair work sample" },
+  { id: "g-colour-1", category: "colour", title: "Work Sample 5", image: "/images/gallery-work-05.jpg", alt: "Professional hair work sample", tall: true },
+  { id: "g-colour-2", category: "colour", title: "Studio Interior", image: "/images/studio-interior.jpg", alt: "Studio interior" },
+  { id: "g-colour-3", category: "colour", title: "Work Sample 1", image: "/images/gallery-work-01.jpg", alt: "Professional hair work sample" },
+  { id: "g-colour-4", category: "colour", title: "Work Sample 2", image: "/images/gallery-work-02.jpg", alt: "Professional hair work sample", tall: true },
+  { id: "g-styling-1", category: "styling", title: "Work Sample 3", image: "/images/gallery-work-03.jpg", alt: "Professional hair work sample" },
+  { id: "g-styling-2", category: "styling", title: "Work Sample 4", image: "/images/gallery-work-04.jpg", alt: "Professional hair work sample", tall: true },
+  { id: "g-styling-3", category: "styling", title: "Work Sample 5", image: "/images/gallery-work-05.jpg", alt: "Professional hair work sample" },
+  { id: "g-styling-4", category: "styling", title: "Studio Interior", image: "/images/studio-interior.jpg", alt: "Studio interior" },
+  { id: "g-bridal-1", category: "bridal", title: "Work Sample 1", image: "/images/gallery-work-01.jpg", alt: "Professional hair work sample", tall: true },
+  { id: "g-bridal-2", category: "bridal", title: "Work Sample 2", image: "/images/gallery-work-02.jpg", alt: "Professional hair work sample" },
+  { id: "g-bridal-3", category: "bridal", title: "Work Sample 3", image: "/images/gallery-work-03.jpg", alt: "Professional hair work sample", tall: true },
+  { id: "g-bridal-4", category: "bridal", title: "Work Sample 4", image: "/images/gallery-work-04.jpg", alt: "Professional hair work sample" },
 ];
 
 export const beforeAfterItems: BeforeAfterItem[] = [
@@ -194,7 +194,7 @@ export const stylists: Stylist[] = [
     position: "Creative Director & Colour Specialist",
     specialties: ["Balayage", "Vivid Colour", "Colour Correction"],
     bio: "Aria leads our colour studio with 14 years of experience across New York and Paris ateliers. Her freehand balayage work has become the studio's signature.",
-    image: "/images/stylist-01.svg",
+    image: "/images/stylist-01.jpg",
   },
   {
     id: "st-marcus",
@@ -203,7 +203,7 @@ export const stylists: Stylist[] = [
     position: "Senior Stylist",
     specialties: ["Precision Cutting", "Men's Grooming", "Texture"],
     bio: "Marcus trained at London's leading cutting academies and brings an architectural approach to every haircut, prioritising shape that grows out beautifully.",
-    image: "/images/stylist-02.svg",
+    image: "/images/stylist-02.jpg",
   },
   {
     id: "st-sofia",
@@ -212,7 +212,7 @@ export const stylists: Stylist[] = [
     position: "Master Colourist",
     specialties: ["Balayage", "Highlights", "Blonding"],
     bio: "Sofia specialises in delicate, high-lift blonding and lived-in highlights, with a keen eye for tone that flatters every skin undertone.",
-    image: "/images/stylist-03.svg",
+    image: "/images/stylist-03.jpg",
   },
   {
     id: "st-elena",
@@ -221,7 +221,7 @@ export const stylists: Stylist[] = [
     position: "Bridal & Occasion Specialist",
     specialties: ["Updos", "Bridal Styling", "Extensions"],
     bio: "Elena has styled over 400 weddings and formal events, known for styles that hold flawlessly from ceremony through the last dance.",
-    image: "/images/stylist-04.svg",
+    image: "/images/stylist-04.jpg",
   },
   {
     id: "st-noah",
@@ -230,7 +230,7 @@ export const stylists: Stylist[] = [
     position: "Senior Stylist",
     specialties: ["Modern Cuts", "Curly Hair", "Styling"],
     bio: "Noah is our resident curl expert, dedicated to cutting and styling textured hair in ways that celebrate its natural pattern.",
-    image: "/images/stylist-05.svg",
+    image: "/images/stylist-01.jpg",
   },
 ];
 
